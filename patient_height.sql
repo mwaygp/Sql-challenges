@@ -4,5 +4,5 @@ select
 from 
     patients
 group by province_id
-having sum_height >= 7000
+having sum_height >= 9000
 order by sum_height;
